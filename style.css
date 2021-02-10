@@ -464,4 +464,27 @@ html {
 .story-paragraph::first-letter {
   margin-left: 1rem;
 }
+
+@media (max-width: 1200px) {
+  .cards-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cards {
+    margin-top: 20px;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .header-paragraph {
+    font-size: 1.5rem;
+  }
+  .logo {
+    top: 0.1rem;
+    right: 0.1rem;
+  }
+  .popular-tours-heading {
+    font-size: 4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
